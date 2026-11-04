@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in Knolt doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Don't attach real camera footage, credentials or customer data. For a security issue, follow SECURITY.md instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Play the staged clip ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Live alerts
+        - Search and questions
+        - Playback and sources
+        - Tracking
+        - Setup and hardware
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Branch or commit
+      placeholder: main @ 97f7ccb
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove keys, names and anything from a real site first.
+      render: text
