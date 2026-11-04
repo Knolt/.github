@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://knolt.ca"><img src="banner.svg" alt="Knolt: on-site AI that catches incidents live" width="100%"></a>
+  <a href="https://knolt.ca"><img src="banner.svg" alt="Knolt: Every camera, made smart." width="100%"></a>
 </p>
 
 <p align="center">
